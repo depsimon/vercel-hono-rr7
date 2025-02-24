@@ -8,6 +8,13 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-export default function Home() {
+export function loader({ context } : Route.LoaderArgs) {
+  return {
+    context
+  }
+}
+
+export default function Home({ loaderData } : Route.ComponentProps) {
+  console.log({ loaderData })
   return <Welcome />;
 }
