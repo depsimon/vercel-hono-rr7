@@ -9,17 +9,17 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@react-router/node": "^7.2.0",
-    "@react-router/serve": "^7.2.0",
+    "@react-router/node": "0.0.0-experimental-58439e382",
+    "@react-router/serve": "0.0.0-experimental-58439e382",
     "@vercel/react-router": "^1.0.2",
     "hono": "^4.7.2",
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.2.0"
+    "react-router": "0.0.0-experimental-58439e382"
   },
   "devDependencies": {
-    "@react-router/dev": "^7.2.0",
+    "@react-router/dev": "0.0.0-experimental-58439e382",
     "@tailwindcss/vite": "^4.0.0",
     "@types/node": "^20",
     "@types/react": "^19.0.1",
